@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Profile Card</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e7f8b4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 320px;
+      background-color: #fff;
+      border: 1px solid #ccc;   /* border around the card */
+      border-radius: 12px;
+      margin: 20px;             /* margin separates cards */
+      padding: 20px;            /* padding gives space inside */
+      text-align: center;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+      color: #222;
+    }
+
+    .card h4 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: normal;
+      color: #777;
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555555;
+      margin-top: 15px;
+    }
+
+    /* Example with multiple cards side by side */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="image 104.png" alt="Profile Image">
+      <h2>Nacho</h2>
+      <h4>Musician & Creative Artist</h4>
+      <p>
+        A passionate artist blending traditional sounds with modern rhythms. 
+        Dedicated to storytelling through music and creating experiences that connect deeply with fans worldwide.
+      </p>
+    </div>
+
+ 
+  </div>
+</body>
+</html>
